@@ -1,41 +1,72 @@
-```markdown
-# Python - Hello, World
+# Holberton School - Higher Level Programming
 
-This was my first project in Python at Holberton School. It introduces the basics of Python scripting including simple printing, string manipulation, and formatting.
+Welcome to the Higher Level Programming repository for Holberton School. This repository contains the foundational Python projects from the second trimester, structured to help students build solid programming practices, problem-solving skills, and mastery of core Python features.
 
-## 📄 Tasks Highlights
+## 📁 Directory Structure
+holbertonschool-higher_level_programming/
 
-- **Printing text** using `print()`
-- **Printing formatted numbers** with `f-strings`
-- **String slicing and concatenation**
-- **Working with `.pyc` files**
-- **The Zen of Python** using `import this`
+- python-hello_world
 
-## ✅ Files
+- python-if_else_loops_functions
 
-```text
-python-hello_world/
-├── 2-print.py
-├── 3-print_number.py
-├── 4-print_float.py
-├── 5-print_string.py
-├── 6-concat.py
-├── 7-edges.py
-├── 8-concat_edges.py
-├── 9-easter_egg.py
-```
+- python-import_modules
 
-## 🧠 Concepts Practiced
-- Python strings and indexing
-- Proper script execution with `#!/usr/bin/python3`
-- pycodestyle compliance
-- Dynamic and modular execution using `__name__ == "__main__"`
+Each folder represents a separate project with its own tasks and scripts written in Python.
 
-## 🧪 Sample Output
+---
 
-```bash
-$ ./3-print_number.py
-98 Battery street
-```
-```
+## 📌 Projects Overview
 
+### 1. python-hello_world
+Covers Python basics:
+- Using the Python interpreter
+- Printing text and variables
+- Basic string manipulation
+- Following the official Python coding style (PEP8/pycodestyle)
+
+### 2. python-if_else_loops_functions
+Focuses on control flow and functions:
+- Conditional statements (`if`, elif, `else`)
+- Loops (`for`, `while`)
+- Creating and using functions
+- Basic math and logical operations
+
+### 3. python-import_modules
+Introduces importing and modular code:
+- import and from ... import ...
+- Using built-in libraries
+- Working with arguments via sys.argv
+- Defining reusable scripts and tools
+
+---
+
+## ✅ Requirements
+
+- Python 3.8.* on Ubuntu 20.04 LTS
+- All files are executable and follow pycodestyle 2.7.*
+- Files start with: #!/usr/bin/python3
+- Each task must pass the Checker and respect format output
+- Scripts should not execute when imported (use `if __name__ == "__main__"`)
+
+---
+
+## 🧠 Skills Gained
+
+- Writing clean Python scripts
+- Modularizing code with functions and imports
+- Parsing arguments from the command line
+- Using control structures effectively
+- Following Python best practices and styling guides
+
+---
+
+## 📝 Author
+
+Rawan Albaraiki  
+Email: [ralbaraiki@gmail.com](mailto:ralbaraiki@gmail.com)
+
+---
+
+## 🗂️ License
+
+This project is part of the Holberton School curriculum and is intended for educational purposes only.
