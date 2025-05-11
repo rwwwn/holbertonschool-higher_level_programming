@@ -1,29 +1,41 @@
 ```markdown
-# Holberton School - Higher Level Programming
+# Python - Hello, World
 
-This repository contains my solutions to Holberton School's higher-level programming sprint projects. The focus is on building fluency in Python, mastering control flow, modularity, import/export techniques, and leveraging the power of Python’s standard libraries.
+This was my first project in Python at Holberton School. It introduces the basics of Python scripting including simple printing, string manipulation, and formatting.
 
-## 📁 Directories
+## 📄 Tasks Highlights
+
+- **Printing text** using `print()`
+- **Printing formatted numbers** with `f-strings`
+- **String slicing and concatenation**
+- **Working with `.pyc` files**
+- **The Zen of Python** using `import this`
+
+## ✅ Files
 
 ```text
-holbertonschool-higher_level_programming
-├── python-hello_world
-├── python-if_else_loops_functions
-└── python-import_modules
+python-hello_world/
+├── 2-print.py
+├── 3-print_number.py
+├── 4-print_float.py
+├── 5-print_string.py
+├── 6-concat.py
+├── 7-edges.py
+├── 8-concat_edges.py
+├── 9-easter_egg.py
 ```
 
-## 🧠 Skills Gained
-- Python syntax and semantics
-- Control flow (if, else, loops)
-- Python data types and functions
-- Using and creating modules
-- Input/output and argument parsing
-- Writing code that adheres to `pycodestyle`
+## 🧠 Concepts Practiced
+- Python strings and indexing
+- Proper script execution with `#!/usr/bin/python3`
+- pycodestyle compliance
+- Dynamic and modular execution using `__name__ == "__main__"`
 
-## 🛠️ Technologies Used
-- Python 3.8
-- Ubuntu 20.04 LTS
-- Emacs / Vim
-- Git & GitHub
-- pycodestyle 2.7.*
+## 🧪 Sample Output
+
+```bash
+$ ./3-print_number.py
+98 Battery street
 ```
+```
+
