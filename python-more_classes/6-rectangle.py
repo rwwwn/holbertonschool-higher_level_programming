@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class.
- Tracks width, height, and the number of instances."""
+"""Defines a Rectangle class with attributes and instance tracking."""
 
 
 class Rectangle:
@@ -9,7 +8,7 @@ class Rectangle:
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance and increment instance counter."""
+        """Initialize new Rectangle instance and increment instance counter"""
         self.width = width
         self.height = height
         Rectangle.number_of_instances += 1
