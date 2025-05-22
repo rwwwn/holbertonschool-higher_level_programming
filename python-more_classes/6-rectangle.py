@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class that tracks number of instances."""
+"""Defines a Rectangle class.
+ Tracks width, height, and the number of instances."""
 
 
 class Rectangle:
