@@ -1,41 +1,25 @@
-# SQL - More Queries
+# 📚 SQL - More Queries
 
-This project is part of the Holberton School curriculum and focuses on advanced SQL operations such as privileges, constraints, joins, and subqueries.
+This project is part of the Holberton School curriculum. It focuses on more advanced SQL concepts including table relationships, user permissions, and complex queries.
 
 ## 📌 Objectives
 
-- Create and manage MySQL users and privileges
-- Understand and apply `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`
-- Use different types of SQL joins (INNER, LEFT)
-- Write queries using subqueries and filtering logic
-- Retrieve and organize data from multiple related tables
+- Manage MySQL users and assign privileges using GRANT and REVOKE
+- Apply table constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL
+- Use SQL joins (INNER JOIN, LEFT JOIN) to combine data across tables
+- Write subqueries and filter results based on complex logic
+- Retrieve and analyze data from related tables efficiently
 
-## 🧠 What I learned
+## 🧠 Key Learnings
 
-- How to grant/restrict access in MySQL using `GRANT` and `REVOKE`
-- Building and linking relational tables with constraints
-- Writing efficient queries with `JOIN` and `SUBQUERY`
-- Handling NULL values and counting related data
-- Sorting and grouping results based on real-world use cases
+- Creating secure and flexible MySQL user permissions
+- Designing relational databases using constraints and keys
+- Writing powerful queries using joins and subqueries
+- Handling NULL values and applying aggregation functions
+- Organizing and presenting data using GROUP BY and ORDER BY
 
-## 🧾 Key SQL Commands Used
 
-| Command | Purpose |
-|--------|---------|
-| `CREATE USER IF NOT EXISTS 'user'@'localhost' IDENTIFIED BY 'pwd';` | Create a new MySQL user safely |
-| `GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';` | Give full access to a user |
-| `GRANT SELECT ON db.table TO 'user'@'localhost';` | Give read-only access |
-| `CREATE DATABASE IF NOT EXISTS dbname;` | Create a database if it doesn't already exist |
-| `CREATE TABLE IF NOT EXISTS ...` | Create a table safely (won't fail if it exists) |
-| `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `DEFAULT`, `NOT NULL` | Table constraints for data integrity |
-| `INSERT INTO table (...) VALUES (...);` | Add new records |
-| `SELECT ... FROM ... WHERE ...` | Query data with conditions |
-| `INNER JOIN`, `LEFT JOIN` | Combine data from multiple tables |
-| `SUBQUERY` (`SELECT ... WHERE ... IN/=`) | Use a query inside another |
-| `GROUP BY`, `COUNT()` | Aggregate data and count records |
-| `ORDER BY ... ASC/DESC` | Sort results by column |
-
-## 🗂️ Files
+## 🗂️ SQL Files and Descriptions
 
 Each `.sql` file contains one task with a single SQL statement, prefixed by comments for clarity.
 
@@ -66,5 +50,5 @@ To run any SQL file:
 ```bash
 cat filename.sql | mysql -uroot -p database_name
 ```
-Replace filename.sql with the script name and database_name with the correct database.
+Replace filename.sql with the script name and database_name with your MySQL database name.
 ---
